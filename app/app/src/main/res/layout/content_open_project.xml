@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="gloominati_selects.altair.DisplayMessageActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gloominati_selects.altair.OpenProject"
+    tools:showIn="@layout/activity_open_project">
 
     <TextView
         android:id="@+id/textView"
@@ -13,8 +15,11 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="cursive"
+        android:text="@string/open_project_welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
