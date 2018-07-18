@@ -4,7 +4,15 @@
     tools:context="gloominati_selects.altair.MainActivity">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="101"
         android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_legal"
+        android:title="@string/action_legal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
         app:showAsAction="never" />
 </menu>
